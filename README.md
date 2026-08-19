@@ -17,7 +17,7 @@
 <img width="1280" height="202" alt="photo_2_2026-08-19_12-19-56" src="https://github.com/user-attachments/assets/338195be-067d-4d87-ad52-3113af936991" />
 <img width="1113" height="625" alt="photo_3_2026-08-19_12-19-56" src="https://github.com/user-attachments/assets/0b0d2f0c-d6e5-41a5-9324-9e25702eb290" />
 3. Run the following command:
-```powershell
+```
 .\hasher.ps1 .\input.csv
 ```
 
