@@ -55,6 +55,4 @@ chmod +x hasher.sh
 
 Once the script finishes processing, a new file named `emails_hashed.csv` will automatically be generated in the same folder. This file contains your securely hashed data and is completely safe to send to our team.
 
-Закидывай и проверяй! Как там с бабками на Моно, кстати? Зашли наконец?
-
 ```
