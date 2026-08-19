@@ -13,6 +13,10 @@
 ## 2. How to Run on Windows (PowerShell)
 1. Open the folder containing the extracted scripts and your input.csv.
 2. Click on the address bar at the top of File Explorer, type `powershell`, and press Enter.
+<img width="1280" height="194" alt="photo_1_2026-08-19_12-19-56" src="https://github.com/user-attachments/assets/bb500579-a97a-4db6-9d8b-f40b40073f59" />
+<img width="1113" height="625" alt="photo_3_2026-08-19_12-19-56" src="https://github.com/user-attachments/assets/0b0d2f0c-d6e5-41a5-9324-9e25702eb290" />
+<img width="1280" height="202" alt="photo_2_2026-08-19_12-19-56" src="https://github.com/user-attachments/assets/338195be-067d-4d87-ad52-3113af936991" />
+
 3. Run the following command:
 ```powershell
 .\hasher.ps1 .\input.csv
