@@ -1,3 +1,4 @@
+```text
 # Instruction: Data Hashing Script
 
 ## 1. Preparation
@@ -16,23 +17,38 @@
 3. Run the following command:
 ```powershell
 .\hasher.ps1 .\input.csv
+
 ```
-Troubleshooting (Script execution error): If execution is disabled by Windows security, run this command instead to bypass it for the current session:
 
-PowerShell
+4. **Troubleshooting (Script execution error):** If execution is disabled by Windows security, run this command instead to bypass it for the current session:
+
+```powershell
 powershell -ExecutionPolicy Bypass -File .\hasher.ps1 .\input.csv
-3. How to Run on macOS (Terminal)
-Open the Terminal application.
 
-Type cd  (with a space after it), drag and drop the extracted folder into Terminal, and press Enter.
+```
 
-Make the script executable by running:
+---
 
-Bash
+## 3. How to Run on macOS (Terminal)
+
+1. Open the Terminal application.
+2. Type `cd ` (with a space after it), drag and drop the extracted folder into Terminal, and press Enter.
+3. Make the script executable by running:
+
+```bash
 chmod +x hasher.sh
-Run the script:
 
-Bash
+```
+
+4. Run the script:
+
+```bash
 ./hasher.sh input.csv
-4. The Result
-Once the script finishes processing, a new file named emails_hashed.csv will automatically be generated in the same folder. This file contains your securely hashed data and is completely safe to send to our team.
+
+```
+
+---
+
+## 4. The Result
+
+Once the script finishes processing, a new file named `emails_hashed.csv` will automatically be generated in the same folder. This file contains your securely hashed data and is completely safe to send to our team.
