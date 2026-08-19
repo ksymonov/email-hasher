@@ -1,4 +1,3 @@
-```text
 # Instruction: Data Hashing Script
 
 ## 1. Preparation
@@ -17,7 +16,6 @@
 3. Run the following command:
 ```powershell
 .\hasher.ps1 .\input.csv
-
 ```
 
 4. **Troubleshooting (Script execution error):** If execution is disabled by Windows security, run this command instead to bypass it for the current session:
