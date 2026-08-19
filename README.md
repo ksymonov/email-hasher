@@ -2,7 +2,8 @@ Instruction
 
 1. Preparation
   
-  1.1 Download the script files to your computer. The easiest way is to click the green "Code" button at the top of this repository page and select "Download ZIP".
+  1.1 Download the script files to your computer. The easiest way is to click the green "Code" button at the top of this repository page and select "Download ZIP"
+  
   1.2 Extract the downloaded archive into a new folder on your computer. (Note: If you see a folder named __MACOSX or files starting with ._ or .DS_Store, simply ignore them. These are invisible macOS system files).
   1.3 Prepare your database in a .csv format. You can use the provided test_contacts.csv as a template. The file must strictly contain two columns separated by a comma (no spaces or quotes): cid and email.
   1.4 Important note for Excel users (Long CIDs): If your cid values are longer than 11 characters, Excel will automatically convert them into scientific notation (e.g., 1.23E+11), which will corrupt the data. To prevent this, press Ctrl + A to select all cells and change the cell format to "Text" before saving the file.
